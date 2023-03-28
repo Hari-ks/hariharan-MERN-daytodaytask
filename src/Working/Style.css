@@ -1,0 +1,66 @@
+.MenuLink{
+    text-decoration: none;
+    color: #f7fafc;
+}
+.MenuLink:hover{
+    text-decoration: underline;
+    color: #0cf0a4;
+}
+
+.Heading{
+    text-shadow: 2px 1px 2px rgb(10, 93, 105);
+    color: steelblue;
+    font-size: 80px;
+}
+.mainFormContainer{
+   
+    background-color: rgb(155, 209, 223);
+    margin-top: 1%;
+}
+.addPost{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: auto;
+    background-color: rgb(6, 121, 111);
+    font-size: large;
+}
+
+.alltitle{
+   color: rgb(62, 201, 201);
+   text-shadow: 2px 2px 5px rgb(24, 34, 44);
+   text-align: center;
+   background-color: darkgrey;
+   text-overflow: clip;
+   margin-top: 1%;
+}
+
+.contactheading{
+    text-align: center;
+    color: rgb(10, 141, 141);
+}
+.aboutheading{
+    text-align: center;
+    color: rgb(7, 138, 138);
+
+}
+
+.taskMenuLink{
+    text-decoration: none;
+    font-size: large;
+    color: #066caf;
+    padding-right: 1%;
+}
+.task-file{
+    margin-top: 1%;
+    height: 30px;
+    background-color: darkgrey;
+    text-align: right;
+}
+
+
+.articleCard{
+    background-color: rgb(67, 148, 168);
+    color: rgb(134, 47, 37);
+}

@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "title": "testing 2",
+      "shortDescription": "dddddddddddddddddddd",
+      "content": "Something....",
+      "author": "dddddddddddddddddd",
+      "publishDate": "2023-03-09",
+      "category": "Food",
+      "id": "1575"
+    },
+    {
+      "title": "testing 3",
+      "shortDescription": "Something....",
+      "content": "Something....",
+      "author": "dddddddddddddddd",
+      "publishDate": "2023-03-09",
+      "category": "Food",
+      "id": "1576"
+    },
+    {
+      "title": "testing 4",
+      "shortDescription": "Something....",
+      "content": "Something....",
+      "author": "eeeeeeeeeeeeee",
+      "publishDate": "2023-03-10",
+      "category": "Travel",
+      "id": "1577"
+    },
+    {
+      "title": "testing 5",
+      "shortDescription": "Something....",
+      "content": "Something....",
+      "author": "eeeeeeeeeeeeee",
+      "publishDate": "2023-03-10",
+      "category": "Travel",
+      "id": "1578"
+    },
+    {
+      "title": "testing 6",
+      "shortDescription": "Something....",
+      "content": "Something....",
+      "author": "eeeeeeeeeeeeee",
+      "publishDate": "2023-03-10",
+      "category": "Travel",
+      "id": "1578"
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Hari",
+      "lastname": "Haran",
+      "email": "sample@gmail.com",
+      "password": "sample",
+      "confirmpassword": "sample",
+      "id": 1541
+    },
+    {
+      "username": "Hari",
+      "password": "hariks",
+      "email": "hari@gmail.com"
+    },
+    {
+      "username": "barath",
+      "password": "barathks",
+      "email": "barath@gmail.com"
+    },
+    {
+      "username": "ram",
+      "password": "ramks",
+      "email": "ram@gmail.com"
+    },
+    {
+      "firstname": "dddddddddddd",
+      "lastname": "dddddddddddddddd",
+      "email": "dddddddddddddddddddd@gmail.com",
+      "password": "ssssssssss",
+      "confirmpassword": "ssssssssss",
+      "id": 1541
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
