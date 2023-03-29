@@ -7,8 +7,9 @@ const TaskFile =()=>{
     return(<>
         <div className="task-file">
             <div >
-                <Link className="taskMenuLink" to='/home/task/counter'>Counter</Link>
-                <Link className="taskMenuLink" to='/home/task/filter'>Filter</Link>
+                <Link className="taskMenuLink" to='/home/nestedRout/task/counter'>Counter</Link>
+                <Link className="taskMenuLink" to='/home/nestedRout/task/filter'>Filter</Link>
+                <Link className="taskMenuLink" to='/home/nestedRout/task/timer'>Timer</Link>
                 
             </div>
         </div>

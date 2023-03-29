@@ -137,7 +137,7 @@ export const FilterList = () => {
                     </table>
 
                 </form>
-                <Link to="/">Home</Link>
+                {/* <Link to="/">Home</Link> */}
             </div>
             
            

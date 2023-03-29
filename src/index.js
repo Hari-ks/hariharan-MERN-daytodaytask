@@ -17,10 +17,13 @@ import SignUp from './Working/SignUp';
 import MainPage from './Working/MainPage';
 import Contact from './Working/Contact';
 import About from './Working/About';
-import Component3 from './Practise/OtherComponent';
-import Context from './Practise/useContext';
-import Component1 from './Practise/SampleConetxt';
+import Component3 from './Practise/UseContext/OtherComponent';
+import Context from './Practise/UseContext/useContext';
+import Component1 from './Practise/UseContext/SampleConetxt';
 import TaskFile from './Working/TaskFile';
+import Normal from './Practise/CustomHooks/CustomHooks';
+import NestedRouting from './Working/NestedRouting';
+import { Content1, Content2 } from './Working/Content';
 
 
 
@@ -42,9 +45,14 @@ root.render(
        <Route path='/home/contact' element={<Contact/>}/>
        <Route path='/home/about' element={<About/>}/>
         <Route exact path='/home/mainform' element={<MainArticleForm/>}/>
-        <Route path='/home/task' element={<TaskFile/>}>
-          <Route path='/home/task/counter' element={<Counter/>}/>
-          <Route path='/home/task/filter' element={<FilterList/>}/>
+        <Route path='/home/nestedRout' element={<NestedRouting/>}>
+        <Route path='/home/nestedRout/task' element={<TaskFile/>}>
+          <Route path='/home/nestedRout/task/counter' element={<Counter/>}/>
+          <Route path='/home/nestedRout/task/filter' element={<FilterList/>}/>
+          <Route path="/home/nestedRout/task/timer" element={<Timer/>}/>
+        </Route>
+        <Route path='/home/nestedRout/content1' element={<Content1/>}></Route>
+        <Route path='/home/nestedRout/content2' element={<Content2/>}></Route>
         </Route>
       </Route>
        
@@ -57,7 +65,7 @@ root.render(
        <Route exact path='/mainformNew' element={<MainArticleForm/>}/>
        <Route path='/demo' element={<FormInput/>}/>
 
-       <Route path='/testing' element={<Context/>}/>
+       <Route path='/testing' element={<Normal/>}/>
        
 
 

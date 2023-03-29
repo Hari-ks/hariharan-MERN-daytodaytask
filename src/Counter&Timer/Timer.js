@@ -53,8 +53,8 @@ const Timer =()=>{
         <button onClick={handleClear} style={{backgroundColor:"silver"}}>Clear</button>
         <h1>{count}</h1>
         <br/>
-        <Link to="/counter">Counter</Link><br/>
-        <Link to="/">Home</Link>
+        {/* <Link to="/counter">Counter</Link><br/>
+        <Link to="/">Home</Link> */}
         </div>
         </>
     )

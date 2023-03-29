@@ -71,8 +71,8 @@ export class Counter extends React.Component {
                         <button onClick={this.decreament} style={{ backgroundColor: "grey" }}>Decreament</button><h3>{this.state.count}</h3><button onClick={this.increament} style={{ backgroundColor: "green" }}>Increament</button>
                         <button onClick={this.clear}>Clear</button>
                     </div>
-                    <Link to="/timer">Timer</Link><br />
-                    <Link to="/">Home</Link>
+                    {/* <Link to="/timer">Timer</Link><br />
+                    <Link to="/">Home</Link> */}
                 </div>
 
                 <div>

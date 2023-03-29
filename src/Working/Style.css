@@ -50,13 +50,21 @@
     text-decoration: none;
     font-size: large;
     color: #066caf;
-    padding-right: 1%;
+    padding-right: 3%;
 }
+.nestedMenuLink{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e4ebf3;
+    padding-right: 2%;
+}
+
 .task-file{
-    margin-top: 1%;
+    margin-top: 0%;
     height: 30px;
-    background-color: darkgrey;
+    background-color: rgb(184, 208, 221);
     text-align: right;
+    
 }
 
 
@@ -64,3 +72,19 @@
     background-color: rgb(67, 148, 168);
     color: rgb(134, 47, 37);
 }
+
+.nested-route{
+    margin-top: 1%;
+    height: 55px;
+    background-color: rgb(100, 162, 204);
+    text-align: center;
+    padding-top: 1%;
+}
+
+.nestedContent{
+
+    text-align: center;
+    color: rgb(10, 141, 141);
+}
+
+

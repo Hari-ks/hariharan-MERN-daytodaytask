@@ -19,7 +19,7 @@ const ArticleCard = ({ id, title, body,onDelete }) => {
     
     <Grid item xs={12} md={3}>
       <CardActionArea component="a" href="#">
-        <Card className='articleCard' sx={{ display: 'flex',backgroundColor:'bisque'}}>
+        <Card className='articleCard' sx={{ display: 'flex',backgroundColor:'cornsilk'}}>
           <CardContent sx={{ flex: 1 }}>
           <CardMedia
                 sx={{ height: 170, width:330 }}
