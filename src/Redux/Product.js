@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import ProductApi from "../APIService/ProductsAPI";
 import { cartActions } from "./Storage";
 import './Style.css';
-import { redirect, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import Button from '@mui/material/Button';
 
 const Products = () => {
