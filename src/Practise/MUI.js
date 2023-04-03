@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import reactimage from './reactimage.png';
+//import reactimage from './reactimage.png';
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import Pagination from '@mui/material/Pagination';
@@ -17,7 +17,7 @@ import Stack from '@mui/material/Stack';
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
                 sx={{ height: 140 }}
-                image={reactimage}
+               //image={reactimage}
                 title="green iguana"
             />
             <CardContent>
@@ -75,7 +75,7 @@ const Conatiner = () => {
                         return (<CardContent>
                             <CardMedia
                                 sx={{ height: 140 }}
-                                image={reactimage}
+                               // image={reactimage}
                                 title="green iguana"
                             />
                             <Typography gutterBottom variant="h5" component="div">
