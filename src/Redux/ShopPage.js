@@ -1,6 +1,4 @@
-import { lightGreen } from "@mui/material/colors";
-import { useEffect, useState } from "react";
-import { redirect, useNavigate } from "react-router-dom";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ProductApi from "../APIService/ProductsAPI";
 import { cartActions } from "./Storage";
@@ -11,10 +9,6 @@ import Button from '@mui/material/Button';
 const CartPage = () => {
     const dispatch = useDispatch();
     const [localData, setLocalData] = useState([]);
-    const navigate = useNavigate()
-
-
-
 
     const { totalItems, data, totalCount } = useSelector(storeObj => {
 
@@ -39,7 +33,7 @@ const CartPage = () => {
 
     const handleMinus = (item) => {
 
-        dispatch(cartActions.decreaseProduct(item.id))
+        dispatch(cartActions.decreaseProductCount(item.id))
     }
     const handleClear = () => {
         dispatch(cartActions.clearCart())

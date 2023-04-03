@@ -26,7 +26,7 @@ const cartSlice = createSlice({
             }
          })
       },
-      decreaseProduct: (state, action) => {
+      decreaseProductCount: (state, action) => {
          state.cartProducts.map((v, i) => {
             if (v.id === action.payload) {
                // console.log("decrease state", state.cartProducts[i].count)
